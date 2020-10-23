@@ -77,7 +77,8 @@
                 width: 350px;
                 padding: 7px;
                 border: 1px solid #E6E6E6;
-                border-radius: 5px; }
+                border-radius: 6px;
+                height: 23px; }
             .container .main-container .main .login .login-container .form-container .form-bottom {
               display: flex;
               justify-content: space-around;
