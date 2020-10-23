@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.container {
+  width: 100%;
+  height: auto;
+  background-image: url(https://ielts.smartcom.vn/upload/image/UI_IELTS_bg_full.jpg);
+  background-size: cover;
+  font-family: Arial;
+  overflow: hidden;
+  box-sizing: border-box; }
+  .container .header {
+    background-image: linear-gradient(to left, #a4d5b1, #f4f4d9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 123px; }
+    .container .header .logo img {
+      width: 220px;
+      margin-left: -20px; }
+    .container .header .IELTS_ONLINE_TRAINING {
+      font-size: 27px;
+      font-weight: bold;
+      color: #2d5c2c; }
+    .container .header .side-bar a {
+      color: #101010;
+      font-size: 18px;
+      font-weight: 550;
+      text-decoration: none; }
+    .container .header .side-bar #dot {
+      margin: 0 8px; }
+  .container .main-container {
+    height: 665px; }
+    .container .main-container .main {
+      display: flex;
+      justify-content: space-around; }
+      .container .main-container .main .introduce-image {
+        line-height: 665px;
+        margin-left: 90px;
+        margin-top: 65px;
+        width: 50%; }
+        .container .main-container .main .introduce-image img {
+          width: 90%; }
+      .container .main-container .main .login {
+        width: 50%;
+        margin-right: 90px;
+        margin-top: 110px; }
+        .container .main-container .main .login .login-container {
+          width: 650px; }
+          .container .main-container .main .login .login-container .courses {
+            height: 220px;
+            background-image: linear-gradient(to right, #a4d5b1 25%, #f4f4d9); }
+            .container .main-container .main .login .login-container .courses .ID1_Vocabularies_for_IELTS_Spe {
+              height: 220px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+              font-size: 19px;
+              line-height: 28px;
+              color: #101010; }
+          .container .main-container .main .login .login-container .form-container {
+            height: 250px;
+            background-color: #fff;
+            padding: 20px;
+            box-sizing: border-box; }
+            .container .main-container .main .login .login-container .form-container .text {
+              font-family: Arial;
+              font-weight: bold;
+              font-size: 20px;
+              line-height: 30px;
+              color: #101010; }
+            .container .main-container .main .login .login-container .form-container td {
+              text-align: right; }
+              .container .main-container .main .login .login-container .form-container td input {
+                width: 350px;
+                padding: 7px;
+                border: 1px solid #E6E6E6;
+                border-radius: 5px; }
+            .container .main-container .main .login .login-container .form-container .form-bottom {
+              display: flex;
+              justify-content: space-around;
+              align-items: center;
+              margin-top: 20px; }
+            .container .main-container .main .login .login-container .form-container .form-bottom a {
+              font-family: Arial;
+              font-size: 16px;
+              color: #3C5C9E;
+              text-decoration: none; }
+            .container .main-container .main .login .login-container .form-container .sign-in-btn {
+              font-family: arial;
+              font-size: 22px;
+              background-color: #B42227;
+              color: #fff;
+              padding: 10px 28px;
+              border-radius: 9px;
+              border-style: none;
+              cursor: pointer;
+              margin-left: 20px; }
+  .container .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #2d5c2c;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 17px;
+    height: 68px;
+    margin-top: 40px;
+    color: white; }
+
+@media only screen and (max-width: 1000px) {
+  .introduce-image {
+    display: none; }
+  .container .header .side-bar {
+    margin: 10px 0; }
+  .container .main-container .main .login {
+    width: 100%;
+    margin-right: 0; }
+    .container .main-container .main .login .login-container {
+      width: 100%;
+      margin: 0 auto; } }
+
+@media only screen and (max-width: 850px) {
+  .container .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: centers; }
+    .container .header .logo img {
+      width: 100%;
+      margin-left: 0; }
+    .container .header .IELTS_ONLINE_TRAINING {
+      display: none; }
+    .container .header .side-bar {
+      color: #2D5C2C; }
+  .container .main-container .main .login {
+    margin-top: 100px; }
+    .container .main-container .main .login .login-container .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 0; }
+      .container .main-container .main .login .login-container .form-container form {
+        width: 100%; }
+        .container .main-container .main .login .login-container .form-container form input {
+          width: 115%; } }
